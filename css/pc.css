@@ -1,0 +1,88 @@
+@media screen and (min-width: 1000px){
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar{
+	background: linear-gradient(40deg, #0A34F1, #F10AC7,#D2F10A);
+	height: 50px;
+	padding-top: 20px;
+	font-family: Arial;
+}
+.menus_nav{
+	float: right;
+	padding-right: 5px;
+}
+.menus_nav ul{
+	list-style: none;
+}
+.menus_nav ul li{
+	display: inline-block;
+	padding: 10px;
+	background-color: #A7C1F7;
+}
+.menus_nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+.menus_nav ul li a:hover{
+	color: #0A55F5;
+}
+.search_box{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #EEF4FF;
+	font-family: Arial;
+}
+.search_class{
+	height: 30px;
+	width: 400px;
+}
+.search_btn_class{
+	height: 30px;
+	width: 70px;
+	background: linear-gradient(-50deg, #F1310A, #D2F10A);
+}
+.conatiner_index{
+background-color: #EBEBEB;
+margin: 0 auto;
+width: 100%;
+height: auto;
+}
+.nav_1_img{
+	filter: blur(2px);
+}
+.details_index{
+	background-color: #EBEBEB;
+}
+.main_box{
+	margin: 0 auto;
+	width: 95%;
+	border: 1px solid gray;
+	height: 100%;
+	display: flex;
+}
+.box{
+	background: #CDCDCD;
+	margin: 10px;
+	width: 30%;
+	height: auto;
+	text-align: center;
+}
+.wiishl_btn{
+	background: tomato;
+	width: 120px;
+	height: 25px;
+}
+.cartd_btn{
+	background: green;
+	width: 120px;
+	height: 25px;
+}
+.footer{
+	background-color: black;
+	height: auto;
+	color: white;
+}
+}
